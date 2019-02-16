@@ -8,6 +8,11 @@ Band2: num, ...), depending on the number of layers that the raster file contain
 The final dataframe can be used for subsequent statistical analysis in R, such 
 as land cover classification.
 
+**NOTE**: The class column is created based on the attribute table that you probably 
+created using a GIS software. The attribute table lists e.g. polygons that define
+your land cover classes. You must name the columns in your attribute table **id**
+and **Class** for the function to work. 
+
 # How to use
 
 ```
