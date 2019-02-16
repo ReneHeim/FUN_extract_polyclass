@@ -1,11 +1,11 @@
-#' Extract digital values from an image (e.g. geotiff) for classification in R
+#' Extract digital values from a raster file (e.g. geotiff).
 #'
 #' @param shp A GIS shapefile shapefile format can spatially describe vector 
 #'            features: points, lines, and polygons, representing specific 
 #'            landscape regions. Each feature usually has descriptive attributes. 
 #'            In this case: id (1,2,3,...) and Class (Water, Soil, Forest,...).
 #' @param rsta Image file which can be imported bz using the raster pkg
-#' @return A data frame containing a class column (Class: Factor) and  one ore 
+#' @return A data frame containing a class column (Class: Factor) and  one or 
 #'         multiple predictor columns (Band1: num, Band2: num, ...).
 #' @examples
 #' extract_polyclass(shapepoly, image)
